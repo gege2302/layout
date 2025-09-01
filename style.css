@@ -81,6 +81,16 @@ main   .descricao a{
      color: white;
      padding: 5px 15px;
 }
+main.  .grid-3{
+     display: flex;
+     padding: 15p;
+}
+main   .grid-3 .coluna{
+     width: 33%;
+}
+main   .grid-3 .coluna-img{
+     width: 100%;
+}
 aside{
 	width: 20%;
 	height: 60vh;
