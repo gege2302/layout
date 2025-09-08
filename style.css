@@ -39,68 +39,50 @@ div.content{
 main{
 	width: 80%;
 	height: 60vh;
-     border:1px solid black;
+    border:1px solid black;
 }
-main  .bloco-principal{
-     width: 100%;
+main .bloco-principal{
+    width: 100%;
+    padding: 20px;
 }
-main  .noticias{
-     width: 80%;
-     display: flex;
-     padding: 30px;
+main .noticia{
+    width: 80%;
+    display:flex;
 }
-main  .noticias img{
-     width: 200px;
-     padding: 10px;
+main .noticia h3{
+    padding: 20px 0;
 }
-main  .descricao h3{
-     background: blue;
-     color: white;
-     padding: 15px;
+main .noticia img{
+    width:200px;
+    padding: 15px;
 }
-main  .descricao p{
-     margin-top: 20px;
-     letter-spacing: 3px;
-     line-height: 25px;
-     margin-bottom: 20px;
+main .noticia p{
+	margin-bottom: 15px;
 }
-main   .grid-3{
-      display:flex;
-      justify-content:  space-around;
-      height: 300px;
+main .noticia a{
+	background: blue;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 15px;
 }
-main   .grid-3   .coluna{
-       width: 33%;
-       border: 1px solid black;
+main .grid-3{
+	display: flex;
+	padding: 15px;
 }
-main    .grid-3   .coluna img{
-        width: 100%;
+main .grid-3 .coluna{
+	width: 33%;
 }
-main   .descricao a{
-     background: blue;
-     color: white;
-     padding: 5px 15px;
-}
-main.  .grid-3{
-     display: flex;
-     padding: 15p;
-}
-main   .grid-3 .coluna{
-     width: 33%;
-}
-main   .grid-3 .coluna-img{
-     width: 100%;
+main .grid-3 .coluna img{
+	width: 100%;
 }
 aside{
 	width: 20%;
 	height: 60vh;
-      background: gray;
-
+	background: gray;
 }
 footer{
 	width: 100%;
 	height: 20vh;
 	background: black;
 }	
-       
-																					
+
