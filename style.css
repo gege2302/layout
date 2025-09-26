@@ -120,7 +120,7 @@ footer h2{
 footer form{
      border: 1px solid white;
      display: flex;
-     flex_direction: column;
+     flex-direction: column;
 }
 footer form input[type='text']{
      height: 30px;
@@ -132,7 +132,7 @@ footer form input[type='text']{
 footer form input[type='submit']{
      background: blue;
      color: white;
-     paddind: 7px 15px;
+     padding: 7px 15px;
      border: 0;
 }
 footer form input[type='submit']:houver{
@@ -140,6 +140,7 @@ footer form input[type='submit']:houver{
 }
 footer  .footer-grid{
      margin: 10px;
+     width: 33%;
 }
 footer p{
      color: white;
